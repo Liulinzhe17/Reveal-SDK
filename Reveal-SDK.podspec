@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Reveal-SDK"
   s.version      = "0.0.1"
-  s.summary      = "A short description of Reveal-SDK."
+  s.summary      = "Reveal-SDK."
   s.description  = "A description of Reveal-SDK."
   s.homepage     = "https://github.com/Liulinzhe17/Reveal-SDK"
 
@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
 
 
 
-  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.public_header_files = "Classes/**/*.h"
+  s.source_files  = "RevealServer-4/**/*.{h,m}"
+  s.public_header_files = "RevealServer-4/**/*.h"
+  s.frameworks = 'CoreGraphics', 'CFNetwork', 'QuartzCore'
 
 end
