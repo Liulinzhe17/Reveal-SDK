@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.source_files  = "RevealServer-4/**/*.{h,m}"
   s.public_header_files = "RevealServer-4/**/*.h"
   s.frameworks = 'CoreGraphics', 'CFNetwork', 'QuartzCore'
+  s.vendored_framework = "RevealServer-4/iOS/RevealServer.framework"
 
 end
